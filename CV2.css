@@ -1,0 +1,191 @@
+/* les modifications generales */
+
+body{
+    /*margin: 0px;
+    padding: 0px;*/
+    height: 1000px;
+    position: absolute;
+    left: 10%;
+    right:10%;
+    
+}
+
+h1, h2{
+    color:rgb(5, 2, 47) ;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+/* la section de la gauche*/
+
+#left{
+    height: 1000px;
+    width: 30%;
+    /*margin-top:0px ;
+    padding-top:0px ;*/
+    background-color: rgb(5, 2, 47);
+    float: left;
+    color: ivory;
+    position: relative;
+    /*border: 1px solid #fff;*/
+    
+    
+}
+
+#left-info{
+    display: inline-block;
+    
+    margin-top: 350px;
+}
+
+.icon{
+    margin-left: 10px;
+    margin-top: 30px;
+    
+    
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: ivory;
+}
+
+h3{
+    text-transform: uppercase;
+    text-align: center;
+    color: ivory;
+    margin-top: 50px;
+    
+}
+
+#me{
+    height: 150px;
+    width: 200px;
+    margin-left: 75px;
+    border-radius: 50%;
+}
+
+.me{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#whatsapp{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+}   
+
+
+div ul{
+    list-style: none;
+    line-height: 57px;
+    position: absolute;
+    top: -25px;
+    left:55px;
+}
+
+/* fin de la section de la gauche*/
+
+
+
+
+
+
+/* debut de la section de la droite*/
+
+
+main{
+    height: 1000px;
+    width: 70%;
+    color: black;
+    float: right;
+    background-color: rgb(255, 246, 235);
+    
+   /* margin: 0px;
+    padding: 0px;*/
+}
+
+
+#right ul{
+    list-style: none;
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    bottom: 45px;
+}
+
+.ul-years{
+    display: inline-block;
+    position: relative;
+    right: 175px;
+    
+}
+
+
+#competence{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: -50px;
+    left: 300px;
+}
+
+#langue{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 340px;
+    bottom: 50px;
+
+}
+
+#fun{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+
+}
+
+#music{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -40px;
+    bottom: 20px;
+
+}
+
+#natation{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right:60px ;
+    bottom: 60px;
+
+}
+
+#certificat{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 380px;
+    bottom: 50px;
+
+}
+
+/*#right{
+    border:3px solid red;
+}
+#left{
+    border:2.5px solid red;
+}*/
